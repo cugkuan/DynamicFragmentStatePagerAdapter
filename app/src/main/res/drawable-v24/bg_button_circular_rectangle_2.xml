@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.
+  ~ author:kuan
+  ~ SunStar
+  ~
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"></solid>
+            <stroke android:color="#2eb1ff"
+                android:width="1.5dp"> </stroke>
+            <corners android:radius="5dp"></corners>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <solid android:color="#f2f2f2"></solid>
+            <stroke android:color="#2eb1ff"
+                android:width="1.5dp"> </stroke>
+            <corners android:radius="5dp"></corners>
+        </shape>
+    </item>
+
+</selector>

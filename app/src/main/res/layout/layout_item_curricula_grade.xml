@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.
+  ~ author:kuan
+  ~ SunStar
+  ~
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:paddingLeft="15dp"
+    android:id="@+id/layout"
+    android:paddingRight="15dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_gravity="center"
+        android:layout_width="40dp"
+        android:scaleType="center"
+        android:clickable="false"
+        android:enabled="false"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="15sp"
+        android:text="名称"
+        android:enabled="false"
+        android:maxLines="3"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:textColor="#333"
+        android:clickable="false"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/switch_subject"
+        android:layout_width="40dp"
+        android:clickable="false"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|center_vertical"
+        android:checked="true"
+        android:thumb="@drawable/switch_button"
+        android:track="@drawable/switch_button_track" />
+
+</LinearLayout>
