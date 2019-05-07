@@ -1,4 +1,4 @@
-package com.cugkuan.editor.myapplication;
+package com.cugkuan.widget.mylibrary;
 
 import org.junit.Test;
 

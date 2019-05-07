@@ -1,9 +1,7 @@
-package com.cugkuan.editor.myapplication;
+package com.cugkuan.widget.myapplication;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
-
-import com.cugkuan.editor.myapplication.Subject;
 
 import java.util.List;
 

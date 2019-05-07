@@ -1,4 +1,4 @@
-package com.cugkuan.editor.mylibrary;
+package com.cugkuan.widget;
 
 import android.os.Bundle;
 import android.os.Parcelable;

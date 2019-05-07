@@ -5,7 +5,7 @@
  *
  */
 
-package com.cugkuan.editor.myapplication.tab;
+package com.cugkuan.widget.myapplication.tab;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -15,8 +15,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.cugkuan.editor.myapplication.R;
-import com.cugkuan.editor.myapplication.Subject;
+import com.cugkuan.widget.myapplication.R;
+import com.cugkuan.widget.myapplication.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

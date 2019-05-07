@@ -1,10 +1,10 @@
-package com.cugkuan.editor.myapplication;
+package com.cugkuan.widget.myapplication;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-import com.cugkuan.editor.mylibrary.DynamicFragmentStatePagerAdapter;
+import com.cugkuan.widget.DynamicFragmentStatePagerAdapter;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.cugkuan.editor.myapplication;
+package com.cugkuan.widget.mylibrary;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.cugkuan.editor.myapplication", appContext.getPackageName());
+        assertEquals("com.cugkuan.editor.mylibrary.test", appContext.getPackageName());
     }
 }

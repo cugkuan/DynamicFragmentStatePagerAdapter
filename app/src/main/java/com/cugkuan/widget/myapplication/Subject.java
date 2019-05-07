@@ -5,7 +5,7 @@
  *
  */
 
-package com.cugkuan.editor.myapplication;
+package com.cugkuan.widget.myapplication;
 
 import android.os.Parcel;
 import android.os.Parcelable;

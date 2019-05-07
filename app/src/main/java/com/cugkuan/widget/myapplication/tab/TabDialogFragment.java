@@ -1,4 +1,4 @@
-package com.cugkuan.editor.myapplication.tab;
+package com.cugkuan.widget.myapplication.tab;
 
 
 import android.app.Dialog;
@@ -19,13 +19,10 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ToggleButton;
 
-import com.cugkuan.editor.myapplication.DataUitls;
-import com.cugkuan.editor.myapplication.R;
-import com.cugkuan.editor.myapplication.Subject;
-import com.cugkuan.editor.myapplication.TabsViewModel;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.cugkuan.widget.myapplication.DataUitls;
+import com.cugkuan.widget.myapplication.R;
+import com.cugkuan.widget.myapplication.Subject;
+import com.cugkuan.widget.myapplication.TabsViewModel;
 
 
 /**

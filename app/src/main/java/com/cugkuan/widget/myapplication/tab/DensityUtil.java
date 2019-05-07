@@ -5,7 +5,7 @@
  *
  */
 
-package com.cugkuan.editor.myapplication.tab;
+package com.cugkuan.widget.myapplication.tab;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

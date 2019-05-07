@@ -5,7 +5,7 @@
  *
  */
 
-package com.cugkuan.editor.myapplication.tab;
+package com.cugkuan.widget.myapplication.tab;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,8 +17,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.cugkuan.editor.myapplication.R;
-import com.cugkuan.editor.myapplication.Subject;
+import com.cugkuan.widget.myapplication.R;
+import com.cugkuan.widget.myapplication.Subject;
 
 import java.util.ArrayList;
 import java.util.Collections;
