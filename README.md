@@ -8,7 +8,7 @@ Viewpager+FragmentStatePagerAdapter动态添加，删除，移动位置，(局�
 
 ```
 
-implementation 'com.github.cugkuan:DynamicFragmentStatePagerAdapter:1.1.1'
+implementation 'com.github.cugkuan:DynamicFragmentStatePagerAdapter:1.1.2'
 	
 ```
 
