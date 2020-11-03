@@ -102,9 +102,12 @@ public class HideTabAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             public void onClick(View v) {
                 if (mOnTabAddListener != null){
                     int  p = mTabs.indexOf(subject);
-                    mOnTabAddListener.add(subject);
-                    mTabs.remove(p);
-                    notifyItemRemoved(p);
+
+                    if (p>= 0 && p <mTabs.size())  {
+                        mOnTabAddListener.add(subject);
+                        mTabs.remove(p);
+                        notifyItemRemoved(p);
+                    }
                 }
             }
         });

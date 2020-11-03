@@ -26,10 +26,8 @@ import java.util.List;
 
 /**
  * Created by Kuan on 2017/8/28.
- *
  * @Author Kuan
  * @Date 2017/8/28
- * 小鸟校园
  * 这里面的代码比较多，因为处理的逻辑很多。
  */
 
@@ -132,9 +130,11 @@ public class EditTabAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
                     if (mTabs.size() > 1) {
                         int p = mTabs.indexOf(subject);
-                        mOnTabDeleteListener.delete(subject);
-                        mTabs.remove(p);
-                        notifyItemRemoved(p);
+                        if (p >= 0) {
+                            mOnTabDeleteListener.delete(subject);
+                            mTabs.remove(p);
+                            notifyItemRemoved(p);
+                        }
                     } else {
                         Toast.makeText(v.getContext(),
                                 "至少有一个栏目",
