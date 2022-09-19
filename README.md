@@ -1,5 +1,6 @@
-**项目不在维护，替代品是ViewPager2**
 ![](https://jitpack.io/v/cugkuan/DynamicFragmentStatePagerAdapter.svg)](https://jitpack.io/#cugkuan/DynamicFragmentStatePagerAdapter)
+
+**项目不在维护，替代品是ViewPager2**
 # DynamicFragmentStatePagerAdapter
 Viewpager+FragmentStatePagerAdapter动态添加，删除，移动位置，(局部)更新页面(Fragment)不闪屏，一个可以完全商业的解决方案
 
