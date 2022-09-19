@@ -1,4 +1,4 @@
-**项目不在维护，替代品是Viewpager2**
+**项目不在维护，替代品是ViewPager2**
 
 ![](https://jitpack.io/v/cugkuan/DynamicFragmentStatePagerAdapter.svg)](https://jitpack.io/#cugkuan/DynamicFragmentStatePagerAdapter)
 # DynamicFragmentStatePagerAdapter
